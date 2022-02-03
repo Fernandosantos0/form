@@ -66,6 +66,15 @@ select[id="campoSlc"] {
     border-radius: 5px;
 }
 
+input[id="campoNome"],
+input[id="campoSnome"] {
+    padding-left: 15px;
+    background-image: url('../image/icone-nome-sobrenome.png');
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: left center;
+}
+
 label.inline {
     display: inline;
 }
