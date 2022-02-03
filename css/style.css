@@ -130,6 +130,12 @@ textarea {
     padding: 5px;
 }
 
+#upload {
+    margin-top: 15px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
 #btns {
     padding-top: 15px;
     text-align: center;
