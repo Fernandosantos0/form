@@ -131,7 +131,7 @@ textarea {
 }
 
 #upload {
-    width: 80%;
+    max-width: 100%;
     margin-top: 15px;
     border: 1px solid #000;
     text-align: center;
@@ -190,5 +190,19 @@ textarea {
 
     input[type="radio"] {
         display: block;
+    }
+
+    #upload {
+        max-width: 80%;
+    }
+
+    input[type="file"] {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 458px) {
+    input[type="file"] {
+        font-size: 11px;
     }
 }
