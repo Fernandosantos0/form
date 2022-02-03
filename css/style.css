@@ -42,8 +42,6 @@ header#cabecalho h1 {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 form div {
@@ -81,6 +79,7 @@ input[id="email"] {
     background-repeat: no-repeat;
     background-size: 13px;
     background-position: left center;
+    width: 100%;
 } /* Inserindo o incone no input email */
 
 input[id="celular"] {
@@ -91,11 +90,9 @@ input[id="celular"] {
     background-position: left center;
 } /* Inserindo o icone no input tel */
 
-label.inline {
-    display: inline;
-}
 
-fieldset {
+
+form {
     background: #eee;
     margin: 0 auto;
     border: 2px solid #000;
@@ -103,8 +100,30 @@ fieldset {
     padding: 15px;
 }
 
+fieldset {
+    border: none;
+}
+
 .inline {
     display: inline;
+}
+
+fieldset#msm {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+fieldset#msm legend {
+    text-align: center;
+}
+
+fieldset#msm div {
+    margin: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 259px;
 }
 
 #btns {
@@ -130,6 +149,10 @@ fieldset {
 
     .inline {
         display: block;
+    }
+
+    label.inline {
+        display: inline;
     }
 
     input[type="radio"] {
