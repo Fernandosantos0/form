@@ -19,73 +19,75 @@
     </header> 
 
     <!-- Formulário -->
-    <form action="script.php" method="POST">
-        <fieldset>
-            <div>
-                <label for="campoNome">Nome:</label>
-                <input type="text" name="caixaNome" placeholder="Digite seu nome aqui" id="campoNome">
-                <label for="campoSnome">Sobrenome:</label>
-                <input type="text" name="caixaSbnome" placeholder="Digite seu sobrenome" id="campoSnome">
-            </div> <!-- Nome e Sobrenome -->
-            <div>
-                <label>Qual área da aplicação você gosta de trabalhar:</label>
-                <input type="radio" name="area" value="frontend" checked id="front">
-                <label for="front" class="inline">Front-End</label>
+    <main id="principal">
+        <form action="script.php" method="POST">
+            <fieldset>
+                <div>
+                    <label for="campoNome">Nome:</label>
+                    <input type="text" name="caixaNome" placeholder="Digite seu nome aqui" id="campoNome">
+                    <label for="campoSnome">Sobrenome:</label>
+                    <input type="text" name="caixaSbnome" placeholder="Digite seu sobrenome" id="campoSnome">
+                </div> <!-- Nome e Sobrenome -->
+                <div>
+                    <label>Qual área da aplicação você gosta de trabalhar:</label>
+                    <input type="radio" name="area" value="frontend" checked id="front">
+                    <label for="front" class="inline">Front-End</label>
 
-                <input type="radio" name="area" value="backend" id="back">
-                <label for="back" class="inline">Back-End</label>
+                    <input type="radio" name="area" value="backend" id="back">
+                    <label for="back" class="inline">Back-End</label>
 
-                <input type="radio" name="area" value="fullstack" id="full">
-                <label for="full" class="inline">Full-Stack</label>
-            </div> <!-- Botão de rádio -->
-            <div>
-                <label>Quais linguagem de programação (ou marcação) você está pretendendo estudar:</label>
-                <input type="checkbox" name="java" value="java" id="java">
-                <label for="java" class="inline">Java</label>
+                    <input type="radio" name="area" value="fullstack" id="full">
+                    <label for="full" class="inline">Full-Stack</label>
+                </div> <!-- Botão de rádio -->
+                <div>
+                    <label>Quais linguagem de programação (ou marcação) você está pretendendo estudar:</label>
+                    <input type="checkbox" name="java" value="java" id="java">
+                    <label for="java" class="inline">Java</label>
 
-                <input type="checkbox" name="javascript" value="javascript" id="javascript">
-                <label for="javascript" class="inline">JavaScript</label>
+                    <input type="checkbox" name="javascript" value="javascript" id="javascript">
+                    <label for="javascript" class="inline">JavaScript</label>
 
-                <input type="checkbox" name="php" value="php" id="php">
-                <label for="php" class="inline">PHP</label>
+                    <input type="checkbox" name="php" value="php" id="php">
+                    <label for="php" class="inline">PHP</label>
 
-                <input type="checkbox" name="CC" value="CC" id="csharp">
-                <label for="csharp" class="inline">C#</label>
+                    <input type="checkbox" name="CC" value="CC" id="csharp">
+                    <label for="csharp" class="inline">C#</label>
 
-                <input type="checkbox" name="ruby" value="ruby" id="ruby">
-                <label for="ruby" class="inline">Ruby</label>
+                    <input type="checkbox" name="ruby" value="ruby" id="ruby">
+                    <label for="ruby" class="inline">Ruby</label>
 
-                <input type="checkbox" name="html" value="html" id="html">
-                <label for="html" class="inline">HTML</label>
+                    <input type="checkbox" name="html" value="html" id="html">
+                    <label for="html" class="inline">HTML</label>
 
-                <input type="checkbox" name="css" value="css" id="css">
-                <label for="css" class="inline">CSS</label>
+                    <input type="checkbox" name="css" value="css" id="css">
+                    <label for="css" class="inline">CSS</label>
 
-                <input type="checkbox" name="outros" value="outros" id="outros">
-                <label for="outros" class="inline">Outros</label>
+                    <input type="checkbox" name="outros" value="outros" id="outros">
+                    <label for="outros" class="inline">Outros</label>
 
-            </div> <!-- Botão checkbox -->
-            <div>
-                <label for="campoSlc">Senioridade:</label>
-                <select name="selecao" id="campoSlc">
-                    <option selected disabled value="">Selecione</option>
-                    <option value="junior">Júnior</option>
-                    <option value="pleno">Pleno</option>
-                    <option value="senior">Senior</option>
-                </select>
-            </div> <!-- Botão para selecionamento -->
-            <div>
-                <label for="email">Digite seu email:</label>
-                <input type="email" name="email" placeholder="Digite seu e-mail" id="email">
-                <label for="celular">Celular:</label>
-                <input type="tel" name="tel" placeholder="(99)99999-9999" id="celular">
-            </div> <!-- Campo de e-mail e tel -->
-            <!-- Botões -->
-            <div id="btns">
-                <input type="submit" name="enviar">
-                <input type="reset" name="limpar" value="Limpar">
-            </div>
-        </fieldset>
-    </form>
+                </div> <!-- Botão checkbox -->
+                <div>
+                    <label for="campoSlc">Senioridade:</label>
+                    <select name="selecao" id="campoSlc">
+                        <option selected disabled value="">Selecione</option>
+                        <option value="junior">Júnior</option>
+                        <option value="pleno">Pleno</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div> <!-- Botão para selecionamento -->
+                <div>
+                    <label for="email">Digite seu email:</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" id="email">
+                    <label for="celular">Celular:</label>
+                    <input type="tel" name="tel" placeholder="(99)99999-9999" id="celular">
+                </div> <!-- Campo de e-mail e tel -->
+                <!-- Botões -->
+                <div id="btns">
+                    <input type="submit" name="enviar">
+                    <input type="reset" name="limpar" value="Limpar">
+                </div>
+            </fieldset>
+        </form>
+    </main>>
 </body>
 </html>
