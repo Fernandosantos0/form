@@ -16,6 +16,7 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="image/icon_paginas.ico" type="image/ico">
         <!-- css -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
