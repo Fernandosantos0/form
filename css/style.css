@@ -131,6 +131,7 @@ textarea {
 }
 
 #upload {
+    width: 80%;
     margin-top: 15px;
     border: 1px solid #000;
     text-align: center;
