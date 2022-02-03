@@ -73,7 +73,23 @@ input[id="campoSnome"] {
     background-repeat: no-repeat;
     background-size: 13px;
     background-position: left center;
-}
+} /* Inserindo o icone na input de nome e sobrenome */
+
+input[id="email"] {
+    padding-left: 15px;
+    background-image: url("../image/icone-email.png");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: left center;
+} /* Inserindo o incone no input email */
+
+input[id="celular"] {
+    padding-left: 15px;
+    background: url(../image/icone-telefone.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: left center;
+} /* Inserindo o icone no input tel */
 
 label.inline {
     display: inline;
