@@ -153,6 +153,16 @@ textarea {
     text-align: center;
 }
 
+#rodape a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#rodape a:hover {
+    color: green;
+}
+
 /* Responsividade */
 @media (max-width: 500px) {
     #principal {
