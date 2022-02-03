@@ -159,6 +159,10 @@ textarea {
     text-align: center;
 }
 
+#destaque {
+    color: green;
+}
+
 #rodape a {
     color: #000;
     text-decoration: none;
@@ -185,5 +189,9 @@ textarea {
 
     input[type="radio"] {
         display: block;
+    }
+
+    #rodape {
+        width: 100%;
     }
 }
