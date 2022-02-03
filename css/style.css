@@ -58,7 +58,8 @@ label {
 input[type="text"],
 input[type="number"],
 input[type="email"],
-input[type="tel"] {
+input[type="tel"],
+select[id="campoSlc"] {
     padding: 5px 10px;
     border: none;
     outline: none;
