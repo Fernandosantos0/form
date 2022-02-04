@@ -199,6 +199,10 @@ textarea {
     input[type="file"] {
         font-size: 14px;
     }
+
+    footer#rodape {
+        width: 100%;
+    }
 }
 
 @media (max-width: 458px) {
